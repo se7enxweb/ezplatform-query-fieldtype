@@ -30,6 +30,9 @@
         "symfony/yaml": "^5.0",
         "psr/log": "^1.1"
     },
+    "replace": {
+        "ezsystems/ezplatform-query-fieldtype": "*"
+    },
     "autoload": {
         "psr-4": {
             "EzSystems\\EzPlatformQueryFieldType\\": "src"
